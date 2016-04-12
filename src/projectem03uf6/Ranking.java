@@ -9,13 +9,9 @@ package projectem03uf6;
  *
  * @author Eric
  */
-public class ProjecteM03UF6 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Ranking {
+    
+    private int Victories;
+    private int Derrotes;
     
 }

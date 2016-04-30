@@ -5,6 +5,8 @@
  */
 package projectem03uf6;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Eric
@@ -13,6 +15,7 @@ public class Equip {
     
     private Personatge Personatges;
     private int Potencial;
+    
 
     public Personatge getPersonatges() {
         return Personatges;
@@ -28,6 +31,8 @@ public class Equip {
 
     public void setPotencial(int Potencial) {
         this.Potencial = Potencial;
+        //hacer un for para recorrer el array list de cada equipo y en cada iteracion del for calcular la suma de los puntos de ataque y defensa
+        
     }
     
     

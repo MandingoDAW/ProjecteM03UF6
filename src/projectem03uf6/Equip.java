@@ -13,5 +13,24 @@ public class Equip {
     
     private Personatge Personatges;
     private int Potencial;
+
+    public Personatge getPersonatges() {
+        return Personatges;
+    }
+
+    public void setPersonatges(Personatge Personatges) {
+        this.Personatges = Personatges;
+    }
+
+    public int getPotencial() {
+        return Potencial;
+    }
+
+    public void setPotencial(int Potencial) {
+        this.Potencial = Potencial;
+    }
+    
+    
+    
     
 }

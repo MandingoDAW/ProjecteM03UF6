@@ -5,15 +5,18 @@
  */
 package projectem03uf6;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Eric
  */
-public class Usuari {
+public abstract class Usuari {
     
     private String NomUsuari;
     private String PasswordUsuari;
-    private Personatge Personatges;
+    //private Personatge Personatges;
+    ArrayList <Personatge> nombreArrayList = new ArrayList<Personatge>();
     private String Lema;
     
     
